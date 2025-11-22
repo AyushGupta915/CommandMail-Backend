@@ -218,7 +218,7 @@ curl -X POST http://localhost:5000/api/drafts \
   }'
 ```
 
-## 🔧 Configuring Prompts
+## Configuring Prompts
 
 The system uses three main prompts that control AI behavior:
 
