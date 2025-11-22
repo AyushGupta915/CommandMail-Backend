@@ -50,23 +50,40 @@ router.get('/:id', async (req, res) => {
 });
 
 // Process single email
+// Process single email
 router.post('/process/:id', async (req, res) => {
   try {
+    console.log('📧 Processing email ID:', req.params.id);
+    
     const email = await Email.findById(req.params.id);
     if (!email) {
+      console.log('❌ Email not found:', req.params.id);
       return res.status(404).json({ error: 'Email not found' });
     }
 
+    console.log('📧 Found email:', email.subject);
+    console.log('🤖 Starting AI processing...');
+
     const { category, actionItems } = await processEmail(email);
+    
+    console.log('✅ AI processing complete');
+    console.log('Category:', category);
+    console.log('Action items:', actionItems.length);
     
     email.category = category;
     email.actionItems = actionItems;
     email.processed = true;
     await email.save();
     
+    console.log('✅ Email saved successfully');
     res.json(email);
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    console.error('❌ Error processing email:', error.message);
+    console.error('Stack:', error.stack);
+    res.status(500).json({ 
+      error: error.message || 'Failed to process email',
+      details: error.toString()
+    });
   }
 });
 
