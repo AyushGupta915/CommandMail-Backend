@@ -2,17 +2,17 @@
 
 AI-powered Email Productivity Agent backend built with Node.js, Express, MongoDB, and Google Gemini AI.
 
-## 🚀 Features
+## Features
 
-* ✅ Email ingestion and processing
-* ✅ AI-powered email categorization (Important, To-Do, Newsletter, Spam)
-* ✅ Action item extraction from emails
-* ✅ Automated reply generation
-* ✅ Intelligent email agent chat
-* ✅ Draft management
-* ✅ Customizable AI prompts
+*  Email ingestion and processing
+*  AI-powered email categorization (Important, To-Do, Newsletter, Spam)
+*  Action item extraction from emails
+*  Automated reply generation
+*  Intelligent email agent chat
+*  Draft management
+*  Customizable AI prompts
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Runtime:** Node.js v18+
 * **Framework:** Express.js
@@ -20,7 +20,7 @@ AI-powered Email Productivity Agent backend built with Node.js, Express, MongoDB
 * **AI:** Google Gemini AI API
 * **CORS:** Enabled for Vercel deployments
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have:
 
@@ -29,7 +29,7 @@ Before you begin, ensure you have:
 * Google Gemini API key ([Get it here](https://aistudio.google.com/app/apikey))
 * Git installed
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -71,7 +71,7 @@ NODE_ENV=development
 FRONTEND_URL=http://localhost:5173
 ```
 
-#### 📝 How to Get MongoDB URI:
+#### How to Get MongoDB URI:
 
 1. Go to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 2. Create a free cluster
@@ -80,7 +80,7 @@ FRONTEND_URL=http://localhost:5173
 5. Replace `<password>` with your database password
 6. Replace `<dbname>` with `emailagent`
 
-#### 📝 How to Get Gemini API Key:
+#### How to Get Gemini API Key:
 
 1. Go to [Google AI Studio](https://aistudio.google.com/app/apikey)
 2. Sign in with your Google account
@@ -91,7 +91,7 @@ FRONTEND_URL=http://localhost:5173
 
 The app will automatically create default prompts, but you can customize them in the database.
 
-## 🚀 Running the Backend
+## Running the Backend
 
 ### Development Mode (with auto-reload)
 
@@ -107,7 +107,7 @@ The server will start at `http://localhost:5000`
 npm start
 ```
 
-## 🧪 Testing the API
+## Testing the API
 
 ### Health Check
 
@@ -131,7 +131,7 @@ Expected response:
 }
 ```
 
-## 📚 API Endpoints
+## API Endpoints
 
 ### Emails
 
@@ -286,7 +286,7 @@ curl -X PUT http://localhost:5000/api/prompts/PROMPT_ID \
   }'
 ```
 
-## 📖 Usage Examples
+## Usage Examples
 
 ### Complete Workflow Example
 
@@ -323,7 +323,7 @@ curl -X POST http://localhost:5000/api/drafts \
   }'
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### MongoDB Connection Issues
 
@@ -363,7 +363,7 @@ netstat -ano | findstr :5000
 taskkill /PID <PID_NUMBER> /F
 ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 backend/
@@ -386,7 +386,7 @@ backend/
 └── package.json      # Dependencies
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Deploy to Render.com
 
@@ -403,7 +403,7 @@ backend/
 
 **Live Backend:** [https://commandmail-backend.onrender.com](https://commandmail-backend.onrender.com)
 
-## 📝 Environment Variables Reference
+## Environment Variables Reference
 
 | Variable         | Description               | Required | Example                 |
 | ---------------- | ------------------------- | -------- | ----------------------- |
@@ -413,7 +413,7 @@ backend/
 | `NODE_ENV`       | Environment mode          | No       | `development`           |
 | `FRONTEND_URL`   | Frontend URL for CORS     | No       | `http://localhost:5173` |
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -423,15 +423,15 @@ Contributions are welcome! Please follow these steps:
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
-## 👤 Author
+## Author
 
-Your Name - [Your GitHub](https://github.com/yourusername)
+Ayush Gupta
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 * Google Gemini AI for powerful language models
 * MongoDB Atlas for database hosting
