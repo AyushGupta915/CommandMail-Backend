@@ -6,7 +6,7 @@ require('dotenv').config();
 const app = express();
 
 // ===== CORS CONFIGURATION - ALLOWS ALL VERCEL DOMAINS =====
-app.use(cors({
+const corsOptions = {
   origin: function (origin, callback) {
     // Allow requests with no origin (mobile apps, Postman, curl, etc.)
     if (!origin) {
@@ -26,6 +26,7 @@ app.use(cors({
     // Allow your specific domains
     const allowedDomains = [
       'https://commandmail.vercel.app',
+      'https://command-mail-frontend.vercel.app',
     ];
     
     if (allowedDomains.includes(origin)) {
@@ -41,8 +42,11 @@ app.use(cors({
   allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
   exposedHeaders: ['Content-Range', 'X-Content-Range'],
   optionsSuccessStatus: 200,
-  maxAge: 86400 // Cache preflight for 24 hours
-}));
+  preflightContinue: false,
+};
+
+// Apply CORS middleware globally
+app.use(cors(corsOptions));
 
 // Body parsing middleware
 app.use(express.json({ limit: '10mb' }));
@@ -52,7 +56,9 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 app.use((req, res, next) => {
   const timestamp = new Date().toISOString();
   console.log(`[${timestamp}] ${req.method} ${req.path}`);
-  console.log(`Origin: ${req.headers.origin || 'no-origin'}`);
+  if (req.headers.origin) {
+    console.log(`Origin: ${req.headers.origin}`);
+  }
   next();
 });
 
@@ -69,12 +75,6 @@ mongoose.connect(process.env.MONGODB_URI, {
     console.error('❌ MongoDB Connection Error:', err);
     process.exit(1);
   });
-
-// API Routes
-app.use('/api/emails', require('./routes/emails'));
-app.use('/api/prompts', require('./routes/prompts'));
-app.use('/api/agent', require('./routes/agent'));
-app.use('/api/drafts', require('./routes/drafts'));
 
 // Root health check
 app.get('/', (req, res) => {
@@ -103,8 +103,11 @@ app.get('/api', (req, res) => {
   });
 });
 
-// Handle preflight requests for all routes
-app.options('*', cors());
+// API Routes
+app.use('/api/emails', require('./routes/emails'));
+app.use('/api/prompts', require('./routes/prompts'));
+app.use('/api/agent', require('./routes/agent'));
+app.use('/api/drafts', require('./routes/drafts'));
 
 // 404 handler
 app.use((req, res) => {
