@@ -1,0 +1,122 @@
+[
+  {
+    "sender": "john.doe@company.com",
+    "subject": "Q4 Planning Meeting - Need Your Input",
+    "body": "Hi Team,\n\nWe need to schedule our Q4 planning meeting for next Tuesday at 2 PM. Please confirm your availability and come prepared with your department's goals and budget requirements.\n\nPlease respond by EOD Friday.\n\nBest regards,\nJohn",
+    "timestamp": "2025-11-15T10:30:00Z"
+  },
+  {
+    "sender": "newsletter@techweekly.com",
+    "subject": "Top 10 AI Trends of 2025 - Weekly Newsletter",
+    "body": "Hello Subscriber,\n\nCheck out the latest AI trends transforming the industry:\n\n1. Generative AI in Healthcare\n2. Autonomous Systems\n3. AI-Powered Cybersecurity\n\nRead the full article on our website.\n\nUnsubscribe | Manage Preferences",
+    "timestamp": "2025-11-16T08:00:00Z"
+  },
+  {
+    "sender": "lottery@winner-alert.com",
+    "subject": "CONGRATULATIONS!!! You've won $1,000,000",
+    "body": "Dear Lucky Winner,\n\nYou have been selected as our grand prize winner! Click here NOW to claim your $1,000,000 prize before it expires!\n\nACT FAST - This offer expires in 24 hours!\n\nClick here: http://suspicious-link.com",
+    "timestamp": "2025-11-16T12:45:00Z"
+  },
+  {
+    "sender": "sarah.manager@company.com",
+    "subject": "URGENT: Client Deliverables Due Tomorrow",
+    "body": "Team,\n\nThe BigCorp client just called - they need the final deliverables by EOD tomorrow instead of next week. This is critical for their board meeting.\n\nPlease drop everything and prioritize:\n1. Final report\n2. Presentation deck\n3. Executive summary\n\nSend me a status update within 2 hours.\n\nThanks,\nSarah",
+    "timestamp": "2025-11-17T09:15:00Z"
+  },
+  {
+    "sender": "hr@company.com",
+    "subject": "ACTION REQUIRED: Complete Annual Compliance Training",
+    "body": "Dear Employee,\n\nThis is a reminder to complete your mandatory annual compliance training by November 30th, 2025.\n\nRequired modules:\n- Data Privacy & Security\n- Workplace Ethics\n- Anti-Harassment Training\n\nLogin to the training portal at: https://training.company.com\n\nFailure to complete will result in system access restrictions.\n\nHR Department",
+    "timestamp": "2025-11-17T11:00:00Z"
+  },
+  {
+    "sender": "deals@shoppingsite.com",
+    "subject": "🔥 50% OFF SALE - This Weekend Only!",
+    "body": "Don't miss our BIGGEST SALE of the year!\n\n💥 50% OFF Everything\n💥 Free Shipping\n💥 Extra 10% for VIP Members\n\nUse code: SAVE50\n\nShop Now: www.shoppingsite.com\n\nSale ends Sunday at midnight!",
+    "timestamp": "2025-11-17T14:20:00Z"
+  },
+  {
+    "sender": "client@bigcorp.com",
+    "subject": "Re: Proposal Review - Questions",
+    "body": "Hi there,\n\nThanks for the detailed proposal. Our team reviewed it and we have a few questions:\n\n1. Can you clarify the timeline for Phase 2?\n2. What's included in the premium support package?\n3. Are there any volume discounts available?\n\nCan we set up a call this week to discuss? I'm available Tuesday or Thursday afternoon.\n\nBest,\nMichael Chen\nBigCorp Inc.",
+    "timestamp": "2025-11-17T16:30:00Z"
+  },
+  {
+    "sender": "team.lead@company.com",
+    "subject": "Weekly Team Sync - Action Items",
+    "body": "Team,\n\nGreat meeting today! Here are the action items:\n\n@Alex - Update API documentation by Friday\n@Jamie - Review pending pull requests by Wednesday\n@Sam - Prepare client demo for next Monday\n@All - Submit timesheets by EOD today\n\nNext sync: Same time next week.\n\nLet me know if you have questions.\n\nCheers,\nPat",
+    "timestamp": "2025-11-18T10:00:00Z"
+  },
+  {
+    "sender": "support@cloudservice.com",
+    "subject": "Your Premium Subscription is Expiring Soon",
+    "body": "Hello,\n\nYour CloudService Premium subscription will expire in 7 days (November 26, 2025).\n\nRenew now and get:\n✓ 20% discount on annual plans\n✓ 2 months free\n✓ Priority support\n\nRenew here: https://cloudservice.com/renew\n\nQuestions? Contact our support team.\n\nCloudService Team",
+    "timestamp": "2025-11-18T08:30:00Z"
+  },
+  {
+    "sender": "ceo@company.com",
+    "subject": "Company All-Hands Meeting - Exciting Updates",
+    "body": "Team,\n\nJoin us for our quarterly all-hands meeting next Thursday, November 28th at 3 PM (Conference Room A / Zoom link below).\n\nAgenda:\n- Q3 Results & Achievements\n- Q4 Goals & Strategy\n- New Product Launch Announcement\n- Team Recognition Awards\n- Open Q&A\n\nZoom: https://zoom.us/j/123456789\n\nLooking forward to seeing everyone there!\n\nBest,\nAlex Thompson\nCEO",
+    "timestamp": "2025-11-18T07:00:00Z"
+  },
+  {
+    "sender": "noreply@socialmedia.com",
+    "subject": "You have 47 new notifications",
+    "body": "Hi,\n\nYou have new activity on your account:\n\n- 23 new likes\n- 15 new followers\n- 9 comments on your posts\n\nSee what's happening: https://socialmedia.com/notifications\n\nThis is an automated message. Please do not reply.",
+    "timestamp": "2025-11-18T15:20:00Z"
+  },
+  {
+    "sender": "finance@company.com",
+    "subject": "Expense Report Submission Deadline - Nov 22",
+    "body": "Dear Team Members,\n\nReminder: All October expense reports must be submitted by Friday, November 22nd for processing in this month's payroll.\n\nSubmission requirements:\n- Completed expense form\n- All receipts attached\n- Manager approval\n\nSubmit via: https://expenses.company.com\n\nLate submissions will be processed next month.\n\nFinance Department",
+    "timestamp": "2025-11-18T13:45:00Z"
+  },
+  {
+    "sender": "security@company.com",
+    "subject": "Security Alert: Password Reset Required",
+    "body": "SECURITY NOTICE\n\nDue to a recent security audit, all employees must reset their passwords within 48 hours.\n\nPassword requirements:\n- Minimum 12 characters\n- Must include uppercase, lowercase, numbers, and symbols\n- Cannot reuse last 5 passwords\n\nReset your password: https://security.company.com/reset\n\nContact IT support if you need assistance.\n\nIT Security Team",
+    "timestamp": "2025-11-18T09:00:00Z"
+  },
+  {
+    "sender": "recruiter@company.com",
+    "subject": "Help Us Find Great Talent - Referral Bonus Program",
+    "body": "Hi Team,\n\nWe're expanding our engineering team! Know someone great?\n\nOpen positions:\n- Senior Full Stack Developer\n- DevOps Engineer\n- Product Manager\n\nReferral Bonus: $2,000 for successful hires\n\nRefer candidates at: https://careers.company.com/refer\n\nThanks for helping us grow!\n\nTalent Acquisition Team",
+    "timestamp": "2025-11-17T10:30:00Z"
+  },
+  {
+    "sender": "project.manager@company.com",
+    "subject": "Project Phoenix - Milestone Review Meeting",
+    "body": "Team Phoenix,\n\nLet's schedule our milestone review for next week.\n\nProposed: Wednesday, Nov 27 at 10 AM\nDuration: 2 hours\nLocation: Conference Room B + Zoom\n\nPlease prepare:\n- Status updates for your work streams\n- Blockers and dependencies\n- Resource needs for next phase\n\nConfirm your attendance by replying to this email.\n\nThanks,\nRobin",
+    "timestamp": "2025-11-17T14:15:00Z"
+  },
+  {
+    "sender": "vendor@supplierco.com",
+    "subject": "Invoice #INV-2025-1847 - Payment Due",
+    "body": "Dear Accounts Payable,\n\nPlease find attached invoice #INV-2025-1847 for $12,450.00.\n\nInvoice Date: November 10, 2025\nDue Date: November 25, 2025\nServices: Q4 Software Licenses\n\nPayment methods:\n- Wire transfer\n- ACH\n- Check\n\nPlease confirm receipt and expected payment date.\n\nBest regards,\nDavid Wilson\nSupplierCo Finance",
+    "timestamp": "2025-11-18T11:30:00Z"
+  },
+  {
+    "sender": "marketing@company.com",
+    "subject": "Blog Post Review Needed - Publishing Tomorrow",
+    "body": "Hi,\n\nI've finished the draft blog post on \"10 Tips for Remote Team Management\" and need your review before we publish tomorrow morning.\n\nDraft link: https://docs.company.com/blog-draft-nov2025\n\nCould you please:\n1. Review for technical accuracy\n2. Check all links work\n3. Approve the featured image\n\nDeadline: 5 PM today\n\nThanks!\nEmily\nContent Marketing",
+    "timestamp": "2025-11-18T14:00:00Z"
+  },
+  {
+    "sender": "admin@conferencetech.com",
+    "subject": "TechSummit 2025 - Speaker Confirmation Required",
+    "body": "Dear Speaker,\n\nThank you for agreeing to speak at TechSummit 2025!\n\nYour session:\nTitle: \"Building Scalable Microservices\"\nDate: December 15, 2025\nTime: 2:00 PM - 3:00 PM\nVenue: Grand Hall A\n\nPlease confirm:\n1. Your attendance\n2. Any A/V requirements\n3. Presentation slides (due Dec 10)\n\nSpeaker perks:\n- Full conference pass\n- VIP dinner invitation\n- Hotel accommodation (2 nights)\n\nConfirm by November 25th: https://techsummit.com/speaker-confirm\n\nLooking forward to your session!\n\nBest,\nConference Team",
+    "timestamp": "2025-11-16T16:00:00Z"
+  },
+  {
+    "sender": "spam-bot@get-rich-quick.biz",
+    "subject": "Make $5000 Per Week Working From Home!!!",
+    "body": "ATTENTION!!!\n\nAre you tired of your 9-5 job? Want to make EASY MONEY from home?\n\nOur PROVEN system helps you make $5000+ per week with NO EXPERIENCE needed!\n\n✓ Work from anywhere\n✓ Set your own hours\n✓ No boss, no commute\n✓ Start earning TODAY\n\nCLICK HERE NOW to get started: http://scam-site-123.biz\n\nLIMITED SPOTS AVAILABLE!!!\n\nThis is NOT a scam! Real people making REAL money!\n\nACT NOW!!!",
+    "timestamp": "2025-11-17T19:30:00Z"
+  },
+  {
+    "sender": "legal@company.com",
+    "subject": "Contract Review Required - Acme Corp Partnership",
+    "body": "Hi,\n\nWe've received the partnership agreement from Acme Corp and need your review from a technical perspective.\n\nKey areas to review:\n- SLA commitments (Section 4)\n- Data processing terms (Section 7)\n- Technical support obligations (Section 9)\n- Integration timeline (Appendix B)\n\nContract value: $250,000 annually\nContract term: 3 years\n\nPlease provide your feedback by COB Wednesday, November 20th. This is time-sensitive as they want to finalize by month-end.\n\nDocument: https://company.sharepoint.com/contracts/acme-2025\n\nLet me know if you need any clarification.\n\nBest regards,\nJennifer Lee\nLegal Department",
+    "timestamp": "2025-11-18T10:45:00Z"
+  }
+]
