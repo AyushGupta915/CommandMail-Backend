@@ -10,7 +10,7 @@ const corsOptions = {
   origin: [
     'http://localhost:5173', // Local development
     'http://localhost:3000', // Alternative local
-    'https://your-app-name.vercel.app', // Replace with your Vercel domain
+    'https://commandmail.vercel.app/', // Replace with your Vercel domain
     'https://*.vercel.app', // All Vercel preview deployments
   ],
   credentials: true,
