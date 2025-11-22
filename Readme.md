@@ -1,4 +1,4 @@
-# CommandMail Backend API
+# CommandMail Backend
 
 AI-powered Email Productivity Agent backend built with Node.js, Express, MongoDB, and Google Gemini AI.
 
